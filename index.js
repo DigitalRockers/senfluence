@@ -19,7 +19,7 @@ var Senfluence = function(options){
 };
 
 /**
- * Call Social Media Monitoring API v1
+ * Call Social Media Monitoring API v1 (deprecated)
  *
  * @param brand 	String,Array 	brand name
  * @param options 	Object 			option object
@@ -174,7 +174,6 @@ Senfluence.prototype.__debugInspect = function (str, obj) {
 			console.log('Senfluence - ' + new Date().toISOString() + ' - ' + this.__inspect(str));
 	}
 };
-
 
 
 module.exports = Senfluence;
