@@ -4,7 +4,7 @@ var should = require('should');
 
 var Senfluence = require('./index');
 
-var sen = new Senfluence({debug: true});
+var sen = new Senfluence();
 
 describe('Senfluence unit tests', function() {
 	it('socialMediaMonitoring', function(done) {
